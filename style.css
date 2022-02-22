@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #5AA4EE;
+    --cor1: #137FEB;
+    --cor2: #0F65BA;
+    --cor3: #294A6B;
+    --cor4: #093A6B;
+    --cor5: rgb(255, 255, 255);
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(240, 228, 162);
+    font-size: var(--font-padrao);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgb(31, 46, 48);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p{
+    margin: 15px 10px 15px 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+nav{
+    background-color: var(--cor4);
+    font-family: var(--font-destaque);
+    border: 10px;
+    padding: 10px;
+    box-shadow: -2px 8px 9px 0px #00000073;
+    margin: auto;
+}
+
+nav > a{
+    padding: 8px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: 0.8s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+header > h1{
+    color: white;
+    font-size: 3em;
+    font-family: var(--font-destaque);
+}
+
+header > p{
+    font-size: 1.5em;
+    font-family: var(--font-destaque);
+
+}
+
+main h1{
+    font-size: 2em;
+    font-family: var(--font-destaque);
+    margin-left: 10px;
+    padding: 10px;
+}
+
+main p{
+    font-family: var(--font-padrao);
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+
+main h2{
+    font-family: var(--font-destaque);
+    padding: 4px;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+main strong{
+    color: var(--cor4);
+    font-size: bold;
+}
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor0);
+    padding: 2px 6px;
+}
+main a:hover{
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+main img{
+    height: 100%;
+}
+
+main img.centro{
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+main img.centro-b{
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
