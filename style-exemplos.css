@@ -29,6 +29,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding: 20px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgb(31, 46, 48);
@@ -133,19 +134,21 @@ main img.copa{
     max-width: 800px;
     display: block;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 10px;
+
 }
 
 main img.copa1{
     max-width: 800px;
     display: block;
     margin: auto;
+
 }
 main img.gunga{
     max-width: 800px;
     display: block;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 main img.gunga1{
     max-width: 800px;
