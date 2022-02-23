@@ -29,8 +29,8 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding: 20px;
     background-color: white;
-    border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgb(31, 46, 48);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -130,13 +130,13 @@ main img{
 }
 
 main img.centro{
-    max-width: 800px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
 
 main img.centro-b{
-    max-width: 800px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
