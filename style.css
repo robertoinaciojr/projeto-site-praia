@@ -126,17 +126,17 @@ main a:hover{
 }
 
 main img{
-    height: 100%;
+    width: 100%;
 }
 
 main img.centro{
-    max-width: 300px;
+    max-width: 800px;
     display: block;
     margin: auto;
 }
 
 main img.centro-b{
-    max-width: 300px;
+    max-width: 800px;
     display: block;
     margin: auto;
 }
